@@ -43,3 +43,8 @@ div > p {
 .multi-selector > p:hover {
   background-color: rgba(0, 0, 0, 0.168);
 }
+
+/* pseudo element */
+.pseudo-element::before {
+  content: "Menambahkan konten sebelum ";
+}
