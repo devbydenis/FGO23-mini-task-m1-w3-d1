@@ -11,3 +11,18 @@
   font-size: 35px;
   color: var(--biru-demokrat);
 }
+
+#with-id {
+  color: rgb(255, 0, 43);
+  font-size: 20px;
+}
+
+.with-class {
+  color: rgb(255, 0, 43);
+  font-size: 20px;
+}
+
+div > p {
+  color: rgb(255, 0, 43);
+  font-size: 20px;
+}
