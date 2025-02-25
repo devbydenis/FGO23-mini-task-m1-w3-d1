@@ -37,3 +37,9 @@ div > p {
 .multi-selector > p:nth-child(3) {
   color: green;
 }
+
+/* Pseudo Class */
+
+.multi-selector > p:hover {
+  background-color: rgba(0, 0, 0, 0.168);
+}
