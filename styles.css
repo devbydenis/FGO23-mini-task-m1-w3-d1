@@ -26,3 +26,14 @@ div > p {
   color: rgb(255, 0, 43);
   font-size: 20px;
 }
+
+/* Selector majemuk */
+.multi-selector > p:nth-child(1) {
+  color: rgb(255, 119, 142);
+}
+.multi-selector > p:nth-child(2) {
+  color: rgb(182, 182, 44);
+}
+.multi-selector > p:nth-child(3) {
+  color: green;
+}
