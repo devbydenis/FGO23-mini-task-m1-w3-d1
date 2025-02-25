@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 :root {
@@ -84,3 +85,18 @@ section > div:nth-child(2) {
   right: 0;
 }
 
+.fab {
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.fab > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
