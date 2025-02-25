@@ -4,4 +4,10 @@
 
 :root {
   --kuning-golkar: yellow;
+  --biru-demokrat: rgb(56, 56, 222);
+}
+
+.text {
+  font-size: 35px;
+  color: var(--biru-demokrat);
 }
